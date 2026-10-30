@@ -39,3 +39,16 @@ Run `sql/schema.sql` in a PostgreSQL database with permission to install `btree_
 ## Academic attribution
 
 Inspired by collaborative Module 4 case-study work for ISBA 2407 at Santa Clara University. This repository is a public-facing educational adaptation, not a copy of the group's report or instructor-provided materials.
+
+## Portfolio summary
+**Business problem:** Represent vacation properties, guests, and bookings in a relational database while maintaining consistent relationships and preventing overlapping reservations.
+
+**What this demonstrates:** Translating business rules into an illustrative PostgreSQL schema; using primary and foreign keys; discussing normalization; and exploring booking-related queries.
+
+**Review path:** Start with [`sql/schema.sql`](sql/schema.sql), then read [`sql/example_queries.sql`](sql/example_queries.sql). Add sample records before expecting result rows.
+
+**Important scope note:** This is an independently prepared educational extension inspired by collaborative coursework, not a reproduction of the group's submitted design. No production deployment or measured business outcome is claimed.
+
+## Next improvements
+- Add an ER diagram that matches the illustrative SQL schema.
+- Include small synthetic sample records and verified query output.
